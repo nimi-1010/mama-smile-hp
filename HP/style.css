@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    background: linear-gradient(135deg, #ffe0ef 0%, #ffd6e6 100%);
+    color: #a14d6b;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 10px 20px 10px;
+    background: rgba(255, 192, 203, 0.18);
+  }
+  
+  h1 {
+    font-size: 2.4em;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    color: #d06fa4;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    color: #e87cb8;
+    margin-bottom: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 300px;
+    padding: 30px 10px;
+  }
+  
+  .intro {
+    background: #fff0f7;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(220, 120, 180, 0.10);
+    padding: 30px 24px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    color: #d06fa4;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+  
+  button#contactBtn {
+    background: linear-gradient(90deg, #ffb6d5 0%, #ffa6c9 100%);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 36px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(220, 120, 180, 0.10);
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button#contactBtn:hover {
+    background: linear-gradient(90deg, #ffa6c9 0%, #ffb6d5 100%);
+    transform: translateY(-2px) scale(1.03);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 18px 0 10px 0;
+    color: #d06fa4;
+    font-size: 1em;
+    background: transparent;
+  }
+  
+  /* レスポンシブ対応 */
+  @media (max-width: 600px) {
+    .intro {
+      padding: 18px 8px;
+      max-width: 95vw;
+    }
+    h1 {
+      font-size: 1.6em;
+    }
+  }
