@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-    background: linear-gradient(135deg, #ffe0ef 0%, #ffd6e6 100%);
+    background: linear-gradient(to right, #ff7eb9, #ff65a3, #7afcff, #feff9c, #fff740);
     color: #a14d6b;
     min-height: 100vh;
   }
